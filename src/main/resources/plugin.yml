@@ -13,7 +13,12 @@ permissions:
 
 commands:
   event:
-    description: "This is a command"
-    usage: "/command <arg1> <arg2>"
+    description: "JXCivilizations Event manager"
+    usage: "/event [start|add|end] [exploring|election|building|meeting|war]"
+    permission: permission.node
+    permission-message: "You do not have permission to use this command"
+  leader:
+    description: "Command to set leaders"
+    usage: "/leader <player>"
     permission: permission.node
     permission-message: "You do not have permission to use this command"

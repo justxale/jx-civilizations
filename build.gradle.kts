@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.justxale"
-version = "1.0-PR"
+version = "PR1.0.1"
 
 repositories {
     mavenCentral()
